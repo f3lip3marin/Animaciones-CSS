@@ -156,6 +156,7 @@ body{
     right: 15px;
     top: 8px;
 }
+/*head*/
 .head {
     background-color: white;
     border-radius: 50%;
@@ -168,7 +169,7 @@ body{
     width: 100%;
 
 }
-
+/*eyes*/
 .head__eye {
     background: gray;
     border-radius: 50%;
@@ -176,10 +177,10 @@ body{
     height: 4px;
     position: absolute;
     top: 15px;
-  }
-  .head__eye--left {
+}
+.head__eye--left {
     left: 30px;
-  }
-  .head__eye--right {
+}
+.head__eye--right {
     right: 30px;
-  }
+}
