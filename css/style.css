@@ -30,7 +30,7 @@ body{
     z-index: 2;
     height: 450px;
     width: 80px;
-    background-color: rgb(33, 24, 149);
+    background-color:  papayawhip;
     bottom: 0;
     left: 60px;
 }
@@ -42,7 +42,7 @@ body{
     margin: 0 auto;
     width: 220px;
     height: 400px;
-    background-color: white;
+    background-color: pink;
     bottom: 0;
 }
 .layer-4{
@@ -50,7 +50,7 @@ body{
     z-index: 4;
     height: 350px;
     width: 80px;
-    background-color: black;
+    background-color: papayawhip;;
     left: 20px;
     bottom: 0;
 }
@@ -61,7 +61,7 @@ body{
     margin: 0 auto;
     width: 195px;
     height: 295px;
-    background-color: blue;
+    background-color: white;;
     bottom: 0;
 
 }
@@ -70,7 +70,7 @@ body{
     z-index: 6;
     height: 250px;
     width: 86px;
-    background-color: blueviolet;
+    background-color: papayawhip;;
     right: 30px;
     bottom: 0;
 }
@@ -92,7 +92,7 @@ body{
     left: 0;
     height: 100px;
     width: 120px;
-    background-color: brown;
+    background-color: #ccefff;
     bottom: 0;
 
 }
@@ -102,7 +102,7 @@ body{
     right:0;
     height: 100px;
     width: 120px;
-    background-color: antiquewhite;
+    background-color: red;
     bottom: 0;
 }
 .layer-10{
