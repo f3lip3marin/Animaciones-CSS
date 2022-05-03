@@ -156,7 +156,7 @@ body{
     left: 60px;
 
     animation-name: layer;
-    animation-duration: 1s;
+    animation-duration: 1.1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
@@ -191,7 +191,7 @@ body{
 
 
     animation-name: layer;
-    animation-duration: 1s;
+    animation-duration: 1.9s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
@@ -222,7 +222,7 @@ body{
 
 
     animation-name: layer;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
