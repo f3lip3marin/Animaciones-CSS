@@ -95,7 +95,25 @@ body{
     height: 4px;
     border-radius: 2px;
     position: absolute;
-    top: 12px
+    top: 12px;
+
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite  ;
+}
+
+@keyframes blink {
+    0% {
+        height: 4px;
+    }
+    5%{
+        transform: translate( 0px, 2px);
+        height: 1px;
+    }
+    10%{
+        transform: translate(0px, 0px);
+    height: 4px;         
+    }
 }
 .head__eye--left{
     left: 30px;
@@ -109,6 +127,26 @@ body{
     width: 80px;
     bottom: 0;
     right: 60px;
+
+    animation-name: layer;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes layer {
+    0%{
+        bottom: 0;
+    }
+    25%{
+        bottom: -80px;
+    }
+    100%{
+
+    }
+}
+
+.layer-1 input[type=checkbox]{
+
 }
 .layer-2{
     z-index: 2;
@@ -116,7 +154,25 @@ body{
     width: 80px;;
     bottom: 0;
     left: 60px;
+
+    animation-name: layer;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
+@keyframes layer {
+    0%{
+        bottom: 0;
+    }
+    25%{
+        bottom: -80px;
+    }
+    100%{
+
+    }
+}
+
+
 .layer-3{
     z-index: 3;
     width: 200px;
@@ -132,6 +188,24 @@ body{
     width: 80px;
     bottom: 0;
     left: 40px;
+
+
+    animation-name: layer;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes layer {
+    0%{
+        bottom: 0;
+    }
+    25%{
+        bottom: -80px;
+    }
+    100%{
+
+    }
 }
 .layer-5{
     z-index: 5;
@@ -145,7 +219,25 @@ body{
     width: 80px;
     bottom: 0;
     right: 40px;
+
+
+    animation-name: layer;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
+@keyframes layer {
+    0%{
+        bottom: 0;
+    }
+    25%{
+        bottom: -80px;
+    }
+    100%{
+
+    }
+}
+
 .layer-7{
     z-index: 7;
     width: 180px;
