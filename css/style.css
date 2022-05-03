@@ -5,6 +5,19 @@ body{
     display: grid;
     place-items: center;
 }
+
+.title {
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 2.2px;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+    opacity: 80%;
+}
+
+
+
+
 .phone{
     width: 300px;
     height: 600px;
@@ -15,6 +28,39 @@ body{
     overflow: hidden;
     box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.3), 0px 15px 12px rgba(0, 0, 0, 0.22);
 }
+
+
+
+input[type=checkbox]{
+    appearance: none;
+    cursor: pointer;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    top: 0;
+    width: 80px;
+    z-index: 2;
+}
+
+input[type=checkbox] :focus {
+    appearance: none;
+    outline: none;
+}
+body {
+    counter-reset: game;
+}
+input:checked{
+    counter-increment: game;
+}
+.score::after{
+    content: counter(game);
+}
+
+
+
+
+
+
 .layer{
     position: absolute;
 }
@@ -160,6 +206,9 @@ body{
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
+
+
+
 @keyframes layer {
     0%{
         bottom: 0;
