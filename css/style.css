@@ -21,7 +21,6 @@ body{
     z-index: 1;
     height: 450px;
     width: 80px;
-    background-color: papayawhip;
     bottom: 0;
     right: 60px;
 }
@@ -30,7 +29,6 @@ body{
     z-index: 2;
     height: 450px;
     width: 80px;
-    background-color:  papayawhip;
     bottom: 0;
     left: 60px;
 }
@@ -44,25 +42,26 @@ body{
     height: 400px;
     background-color: pink;
     bottom: 0;
+    border-radius: 20px;
 }
 .layer-4{
     position:absolute;
     z-index: 4;
     height: 350px;
     width: 80px;
-    background-color: papayawhip;;
     left: 20px;
     bottom: 0;
 }
 .layer-5{
     position:absolute;
     z-index: 5;
-    left: 0px;
+    left: 2px;
     margin: 0 auto;
     width: 195px;
     height: 295px;
     background-color: white;;
     bottom: 0;
+    border-radius: 20px;
 
 }
 .layer-6{
@@ -70,7 +69,6 @@ body{
     z-index: 6;
     height: 250px;
     width: 86px;
-    background-color: papayawhip;;
     right: 30px;
     bottom: 0;
 }
@@ -83,6 +81,7 @@ body{
     width: 150px;
     background-color: black;
     bottom: 0;
+    border-radius: 20px;
 
 
 }
@@ -184,3 +183,5 @@ body{
 .head__eye--right {
     right: 30px;
 }
+
+
